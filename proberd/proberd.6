@@ -1,0 +1,29 @@
+.TH PROBER 8 "2004 Apr 13"
+.SH NAME
+prober \- a network prober
+.SH SYNOPSIS
+.B prober
+[
+.B \-h
+]
+[
+.B \-v
+]
+.br
+.ad
+.SH DESCRIPTION
+prober is a network measurement tool. As an agent, it gets a probing request info from the clients, then sends custom TCP/IP packets to the targets and receives the response packets, at last sends the return info to the clients.
+.SH BASE OPTIONS
+.TP
+.I -h
+Show an help screen on standard output, so you can pipe to less.
+.TP
+.I -v
+Show version information and API used to access to data link layer,
+.SH AUTHOR
+Zhang Yu <zhangyu@pact518.hit.edu.cn>
+.SH BUGS
+.PP
+Many
+.SH SEE ALSO
+ping(8), traceroute(8), ifconfig(8), nmap(1)
