@@ -30,3 +30,15 @@ Usage: tracer [OPTION] [DESTINATION]...
 ```
 
 
+=========
+```
+proberd - prober server usage:
+    -d      : run server as a daemon
+    -p port : server UDP port
+    -s pps  : packets per second
+    -u path : server Unix socket path
+    -v      : version about
+```
+
+
+
