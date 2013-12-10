@@ -6,8 +6,8 @@ fastrace
 * cntp04: Chinese Internet Topology Dataset 2004-12 collected by fastrace.
 
 ========
-
-Usage: %s [OPTION] [DESTINATION]...
+```
+Usage: tracer [OPTION] [DESTINATION]...
   OPTION is:
     -a   . . . . . . . 'ally' two IP addresses
     -d   . . . . . . . debug output
@@ -27,5 +27,6 @@ Usage: %s [OPTION] [DESTINATION]...
   DESTINATION is: IP_address[/prefixlen]
     If neither destiantions nor option -f is here, 
     read destinations from stdin.
+```
 
 
